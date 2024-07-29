@@ -1,0 +1,6 @@
+l=input("enter a string:")
+print("characters in the string:")
+for char in l:
+  print(char)
+string_length=len(l)
+print(f"\nlength of the string:{string_length}")
