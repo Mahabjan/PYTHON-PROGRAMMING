@@ -1,0 +1,15 @@
+def find_gcd(a,b):
+  while b!=0:
+    a,b=b,a%b
+  return a
+def main():
+  num1=int(input("enter first number:"))
+  num2=int(input("enter second number:"))
+  gcd = find_gcd(num1,num2)
+  print(f"the gcd of {num1} and {num2} is: {gcd}")
+main()
+
+OUTPUT
+enter first number:12
+enter second number:15
+the gcd of 12 and 15 is: 3
