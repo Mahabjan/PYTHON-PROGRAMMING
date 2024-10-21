@@ -1,0 +1,11 @@
+def find_second_largest(numbers):
+  largest=max(numbers)
+  numbers.remove(largest)
+  return max(numbers)
+numbers_list=[34,12,24,56,1,-5,67,45]
+second_largest=find_second_largest(numbers_list)
+print(f"second largest number: {second_largest}")
+
+
+OUTPUT
+second largest number: 56
