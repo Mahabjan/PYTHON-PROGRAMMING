@@ -1,0 +1,11 @@
+def find_largest_and_smallest(numbers):
+  return max(numbers), min(numbers)
+numbers_list=[34,12,24,56,1,-5,67,45]
+largest,smallest=find_largest_and_smallest(numbers_list)
+print(f"largest number:{largest}")
+print(f"smallest number:{smallest}")
+
+OUTPUT
+
+largest number:67
+smallest number:-5
